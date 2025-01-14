@@ -1,1 +1,2 @@
 texto 3 desde rama desarrollo
+otro parrafo, rechazado.
