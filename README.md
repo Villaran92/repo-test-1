@@ -4,7 +4,7 @@
 
 ---
 
-## 📝 **Tabla de Contenidos**
+## 📝 **Tabla de Contenidos:**
 1. [Descripción](#📖-descripción)
 2. [Características](#✨-características)
 3. [Requisitos](#🛠️-requisitos)
