@@ -13,7 +13,8 @@ jobs:
       - name: Upload Code
         uses: actions/upload-artifact@v6.0.0
         with:
-          path: **/file3
+          name: drop
+          path: file3
         
   
     
