@@ -15,6 +15,16 @@ jobs:
         with:
           name: drop
           path: file3
-        
+  test2:
+    runs-on: ubuntu-22.04
+    needs: test
+    steps:
+      - name: Download Code
+        uses: actions/download-artifact@v7.0.0
+        with:
+          name: drop
+      - name: List Code
+        run: ls
+
   
     
