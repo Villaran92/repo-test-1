@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Get code
+        uses: actions/checkout@v6.0.2
+      - name: List Code
         run: ls
   
     
