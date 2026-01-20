@@ -6,7 +6,12 @@ jobs:
     steps:
       - name: Get code
         uses: actions/checkout@v6.0.2
+      - name: Create file
+        run: touch file1
       - name: List Code
         run: ls
+      - name: Upload Code
+        uses: actions/upload-artifact@v6.0.0
+        
   
     
