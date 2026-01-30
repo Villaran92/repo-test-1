@@ -11,7 +11,7 @@ jobs:
       - name: Create file
         run: touch file3
       - name: List Code
-        run: ls
+        run: ls -ls
       - name: Upload Code
         uses: actions/upload-artifact@v6.0.0
         with:
